@@ -1,0 +1,66 @@
+  
+    <div class="inline-block p-8 bg-white rounded-sm shadow-lg">
+      <span class="font-semibold">Crear Producto</span>
+  <div class="flex  ">
+      <!-- Inicio de datos de crear producto -->
+      <div class="flex flex-col justify-center mr-6">
+
+          <div class="my-4 border-b">
+             <input type="text" placeholder="nombre de producto" class=" focus:outline-none py-2">
+          </div>
+          
+          <div class="my-4 border-b">
+              <input type="text" placeholder="precio de producto" class=" focus:outline-none py-2">
+          </div>
+  
+          <div class="my-4 border-b">
+              <input type="text" placeholder="peso de producto" class=" focus:outline-none py-2">
+          </div>
+  
+     
+
+         <div class="my-4 py-1 text-blue-800 bg-blue-200 text-center rounded-md">
+           <input type="file" placeholder="imagen" class="hidden" id="file">
+           <label for="file">imagen</label>
+         </div>
+  
+         
+      </div>
+      <!-- Fin de datos de crear producto -->
+  
+      <!-- Inicio de vista de nuevo producto -->
+      <div>
+          <div
+          class="mx-4 col-span-4 sm:col-span-4 md:col-span-2 lg:col-span-1 xl:col-span-1 flex flex-col items-center"
+        >
+          <div class=" rounded-lg mt-5 bg-green-200  w-56 h-40 flex justify-center">
+            <img class=""
+              src=""
+              class="h-40 rounded-md"
+              alt=""
+            />
+          </div>
+          <div class="bg-white shadow-lg rounded-lg -mt-4 w-64">
+            <div class="py-5 px-5">
+              <span class="font-bold text-gray-800 text-lg">Brocoli</span>
+              <div class="flex items-center justify-between">
+                <div class="text-sm text-gray-600 font-light">
+                  Peso : 1 kilo
+                </div>
+                <div class="text-2xl text-red-600 font-bold">
+                  S/ 4.00
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fin de vista de nuevos productos -->
+  </div>
+
+  <div class="flex justify-end mr-6">
+      <button class="bg-blue-200 m-4 px-6 py-1 text-blue-800">crear</button>
+      <button class="bg-blue-200 m-4 px-3 py-1 text-blue-800">publicar</button>
+  </div>
+ 
+</div>

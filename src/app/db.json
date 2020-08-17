@@ -1,0 +1,74 @@
+{
+    "productos":[
+        {
+            "id":1001,
+            "nombre":"brocoli",
+            "precio": 3.50,
+            "medida": "kilo",
+            "imagen": "img/brocoli.png",
+            "categoria": "verdura"
+        },
+        {
+            "id":1002,
+            "nombre":"lechuga",
+            "precio": 1.50,
+            "medida": "kilo",
+            "imagen": "img/brocoli.png",
+            "categoria": "verdura"
+        },
+        {
+            "id":1003,
+            "nombre":"rocoto",
+            "precio": 3.00,
+            "medida": "kilo",
+            "imagen": "img/brocoli.png",
+            "categoria": "verdura"
+        },
+        {
+            "id":1004,
+            "nombre":"zanahorea",
+            "precio": 1.50,
+            "medida": "kilo",
+            "imagen": "img/brocoli.png",
+            "categoria": "verdura"
+        },
+        {
+            "id":1005,
+            "nombre":"apio",
+            "precio": 1.00,
+            "medida": "kilo",
+            "imagen": "img/brocoli.png",
+            "categoria": "verdura"
+        },
+        {
+            "id":1006,
+            "nombre":"pimenton",
+            "precio": 1.00,
+            "medida": "kilo",
+            "imagen": "img/brocoli.png",
+            "categoria": "verdura"
+        },
+        {
+            "id":1007,
+            "nombre":"tomate",
+            "precio": 2.50,
+            "medida": "kilo",
+            "imagen": "img/brocoli.png",
+            "categoria": "verdura"
+        }
+    ],
+    "usuarios":[
+        {
+            "id":1001,
+            "nombre" : "yelsin caso",
+            "phone" : "999 999 999",
+            "rol" : "administrador"
+        },
+        {
+            "id":1002,
+            "nombre" : "cliente",
+            "phone" : "999 999 999",
+            "rol" : "cliente"
+        }
+    ]
+}
